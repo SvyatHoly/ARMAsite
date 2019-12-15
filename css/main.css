@@ -1,0 +1,204 @@
+/*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+body {
+  margin: 0;
+  height: 2000px;
+  background: #17143A;
+}
+
+.background1 {
+  height: 1900px;
+  background: url(../img/wave.png) top center;
+  background-size: cover;
+  display: block;
+
+}
+
+.background2 {
+  height: 1900px;
+  background: url(../img/wave.png) top center;
+  background-size: cover;
+  transform: rotate(-180deg) scaleX(-1);
+  display: flex;
+  flex-direction: column-reverse;
+
+}
+
+.arma {
+  padding-top: 50px;
+  padding-left: 50px;
+  box-sizing: border-box;
+  font-family: Coda, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 163px;
+  line-height: 200px;
+  text-align: left;
+  color: white;
+  /*background: -webkit-linear-gradient(rgba(19, 13, 46, 0.90), rgba(255, 255, 255, 0.50));*/
+  -webkit-background-clip: text;
+  /*-webkit-text-fill-color: transparent;*/
+  /*-webkit-text-stroke-width: 1px;*/
+  /*-webkit-text-stroke-color: rgba(19, 13, 46, 0.90);*/
+}
+
+.arma__explain {
+  padding-left: 50px;
+  box-sizing: border-box;
+  font-size: 29px;
+  line-height: 60px;
+  font-family: Roboto, serif;
+  font-style: normal;
+  font-weight: normal;
+  color: white;
+}
+
+.text1 {
+  padding: 100px;
+  text-align: center;
+  font-family: Roboto, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 36px;
+  color: white;
+}
+
+.separator {
+  border: 1px solid #FFFFFF;
+}
+
+.step1 {
+  padding: 100px;
+  text-align: center;
+  font-family: Roboto, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 36px;
+  color: white;
+}
+
+.image__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.place {
+  width: 500px;
+  height: 900px;
+  background: url("../img/place.png");
+  background-size: cover;
+  border-radius: 20px;
+
+}
+
+.face {
+  margin-left: 50px;
+  width: 350px;
+  height: 500px;
+  background: url("../img/face.png");
+  background-size: cover;
+  border-radius: 20px;
+
+}
+
+.mode {
+  padding-top: 100px;
+  transform: rotate(-180deg) scaleX(-1);
+  text-align: center;
+  font-family: Roboto, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 36px;
+  color: white;
+}
+
+.guitar__text {
+  padding: 100px;
+  transform: rotate(-180deg) scaleX(-1);
+  text-align: center;
+  font-family: Roboto, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 36px;
+  color: white;
+}
+
+.flow__text {
+  padding: 100px;
+  transform: rotate(-180deg) scaleX(-1);
+  text-align: center;
+  font-family: Roboto, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 36px;
+  color: white;
+}
+
+.guitar {
+  min-width: 300px;
+  min-height: 300px;
+  margin-left: 50px;
+  width: 300px;
+  height: 400px;
+  background: url("../img/guitar3d.png") no-repeat;
+  background-size: contain;
+  border-radius: 20px;
+  transform: rotate(-180deg) scaleX(-1);
+}
+
+.flow {
+  min-width: 300px;
+  margin-left: 50px;
+  width: 300px;
+  height: 400px;
+  background: url("../img/flow3d.png") no-repeat;
+  background-size: contain;
+  border-radius: 20px;
+  transform: rotate(-180deg) scaleX(-1);
+}
+
+.flow__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.guitar__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+@media screen and (min-width: 1024px) {
+
+
+  .flow__container {
+    flex-direction: row;
+  }
+
+  .guitar__container {
+    flex-direction: row;
+  }
+}
+
